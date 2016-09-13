@@ -4,12 +4,16 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Greetings all.  I just wanted to put together a place where I can post some thoughts 
+and other musings.  I'll aim to write a lot about coding and document my work with 
+that.  Maybe this will create some sort of accountability and I'll get better about 
+getting stuff done on the coding-front.
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jekyll" %} /
-[minima](https://github.com/jekyll/minima)
+A bit about myself:  I'm a Northeastern educated graduated (two degrees, most recently an MBA).  
+I also attended General Assembly's Web Development Immersive in NYC back in early-2014 where 
+I really dove in to web development with some amazing classmates and instructors.
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+I'm also a rather big geek.  You can read in to that however you might, but I love tabletop games (board, card, and RPGs), videogames of all sorts, sports, craft beer, whiskey, wine, food, hiking, camping, snow, etc...
+
+So, feel free to hit me up however you might if you feel so compelled.  Otherwise, I hope you've enjoyed 
+your time here.
