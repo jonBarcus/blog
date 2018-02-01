@@ -2,6 +2,7 @@
 layout: post
 title:  "Dealing with a password prompt when executing 'git push' in Terminal"
 date:   2018-01-24 14:00:00 -0400
+comments: true
 categories: git github bash terminal passcode
 ---
 
