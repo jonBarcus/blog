@@ -53,8 +53,10 @@ I entered the passphrase and it confirmed I was successfully authenticated!
 
 Next, I decided to add/re-add my SSH private key to the ssh-agent:
 ```bash
-ssh-add ~/.ssh/id_rsa
+ssh-add -K ~/.ssh/id_rsa
 ```
+
+The *-K* is important because it's storing the passcode in OSX's Keychain.  I didn't realize I had to do this at first, and I wanted to avoid it but relented.
 
 When I next ran
 ```bash
