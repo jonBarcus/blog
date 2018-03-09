@@ -7,24 +7,24 @@ categories: git github bash terminal ruby gem homebrew osx
 ---
 
 # Rebuilding my development environment - Part 1
-###Again? Seriosuly?
+### Again? Seriosuly?
 So, apparently my old SSD decided to go kaput.  Fortunately, I had the foresight to e-mail this to me _just in case_ it did.  Phew.  Hold on to your butts.  One thing that I've been weighing while my computer has been out of comission, is whether or not I should start with the Bash profile.  I don't think I will and we'll just go with the generic stuff that everyone can make use of.  I'll share some of my Bash profile settings in another part.
 
-###Original Start
+### Original Start
 As fate would have it, my partition got messed up and I had to reformat my disk and reinstall the OS about two months after it wiped my SSD, re-installed the OS, and set up my dev environment.
 
 I had lamented my not writing about the process a couple months ago, so, now I get a second chance!  Though I had a pretty cool "How to get Disqus working with your GitHub-hosted Jekyll blog" post in the works that's lost to eternity.  C'est dommage.
 
 Part 1 is going to cover up to the point where I can push this up to my blog.
 
-###Optional Section - Applications I love and always install
+### Optional Section - Applications I love and always install
 
-- (https://www.spectacleapp.com/) - a wonderful application that allows you to quickly reposition windows around your display(s).  I can't live without this
-- (https://kapeli.com/dash) - a great application that will store documentation offline for you (handy when your internet connection is crappy or non-existent)
-- (https://www.alfredapp.com/) - as-is, this app is only useful if you make it useful.  It can become quite the powerful tool if you get the Powerpack and set up some Workflows
-- (https://www.sublimetext.com/3) - this is my preferred text editor.  I just like it.  Everyone has their preferences and I'm not dogmatic about this.  Use what works best for you!
+- [Spectacle](https://www.spectacleapp.com/) - a wonderful application that allows you to quickly reposition windows around your display(s).  I can't live without this
+- [Dash](https://kapeli.com/dash) - a great application that will store documentation offline for you (handy when your internet connection is crappy or non-existent)
+- [Alfred](https://www.alfredapp.com/) - as-is, this app is only useful if you make it useful.  It can become quite the powerful tool if you get the Powerpack and set up some Workflows
+- [Sublime Text](https://www.sublimetext.com/3) - this is my preferred text editor.  I just like it.  Everyone has their preferences and I'm not dogmatic about this.  Use what works best for you!
 
-###The Fun Stuff Begins - Homebrew
+### The Fun Stuff Begins - Homebrew
 
 Alright.  I love [Homebrew](https://brew.sh/).  This is a wonderful package manager and it's how I manage my installs in Terminal.  It's also the first thing I install.
 
@@ -34,7 +34,7 @@ So, heading to Terminal, I run:
 ```
 This will run normal stuff but, if you don't have it installed already, is going to prompt you for your password to install **The Xcode Command Line Tools**.  Go for it.
 
-###The Fun Stuff Continues - Git
+### The Fun Stuff Continues - Git
 
 What's next?  Why don't we install Git?
 
@@ -44,9 +44,9 @@ Once that's installed, if you run `git --version` in Terminal, you'll likely see
 
 Run `hash -r` in Terminal and that will clear some cached executable paths and when you run `git --version` again you should see the version of git that you installed!
 
-###What's Next? Ruby!
+### What's Next? Ruby!
 
-Ruby is what I know right now, so that's my focus here.  Again, not being dogmatic here, but I prefer [**rbenv **](http://*)instead of **RVM**.  There's a nice and simple comparision [here](https://github.com/rbenv/rbenv/wiki/Why-rbenv%3F) if you want to take a look.  If not, we'll get to installing rbenv and Ruby.
+Ruby is what I know right now, so that's my focus here.  Again, not being dogmatic here, but I prefer [**rbenv](https://github.com/rbenv/rbenv)instead of **RVM.  There's a nice and simple comparision [here](https://github.com/rbenv/rbenv/wiki/Why-rbenv%3F) if you want to take a look.  If not, we'll get to installing rbenv and Ruby.
 
 Inside Terminal, let's run `brew install rbenv`
 
@@ -62,7 +62,7 @@ The way I resolved this was to add `eval "$(rbenv init -)"` to the my `.bash_pro
 
 Now, if you run `rbenv global 2.5.0` and check `ruby -v` you should see that the Ruby version it returns is correct.
 
-###GitHub
+### GitHub
 
 Alright.  We're closer to getting this post up on my blog.
 
@@ -81,7 +81,7 @@ Now, you can [add the key to your Github account](https://help.github.com/articl
 
 You might want to [test your SSH connection to GitHub](https://help.github.com/articles/testing-your-ssh-connection/).
 
-###Cloning Your Repo (if you're here because you were in the same situation or similar situation)
+### Cloning Your Repo (if you're here because you were in the same situation or similar situation)
 
 Okay, so now it's time to get that repo back on the local machine.  If you've got Git working and everything is all set from the GitHub section, this should be pretty easy.
 1. In Terminal, go to the folder where you'd like the GitHub repo cloned to (it'll create a new folder with the repo in it)
