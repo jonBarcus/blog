@@ -95,4 +95,4 @@ You should be all set!  Make sure things copied correctly.
 You'll want to check the remotes `git remote -v` and make sure it's got the correct *fetch* and *push* options.
 If it does you're all set!
 
-In Part 2 I'll start on my Bash profile.  Hope this was helpful!
+In [Part 2](https://jonbarcus.github.io/git/github/bash/terminal/osx/2018/03/09/rebuilding-my-dev-envr-part2.html) I'll start on my Bash profile.  Hope this was helpful!
