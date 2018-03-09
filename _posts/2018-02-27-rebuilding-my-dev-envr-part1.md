@@ -1,3 +1,11 @@
+---
+layout: post
+comments: true
+title:  "Rebuilding My Development Environment - Part 1"
+date:   2018-01-24 14:00:00 -0400
+categories: git github bash terminal ruby gem homebrew osx
+---
+
 # Rebuilding my development environment - Part 1
 ###Again? Seriosuly?
 So, apparently my old SSD decided to go kaput.  Fortunately, I had the foresight to e-mail this to me _just in case_ it did.  Phew.  Hold on to your butts.  One thing that I've been weighing while my computer has been out of comission, is whether or not I should start with the Bash profile.  I don't think I will and we'll just go with the generic stuff that everyone can make use of.  I'll share some of my Bash profile settings in another part.
