@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title:  "Rebuilding My Development Environment - Part 1"
-date:   2018-01-24 14:00:00 -0400
+date:   2018-02-27 14:00:00 -0400
 categories: git github bash terminal ruby gem homebrew osx
 ---
 
