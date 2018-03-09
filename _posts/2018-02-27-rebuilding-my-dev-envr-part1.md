@@ -70,7 +70,10 @@ Let's make sure our computer can play nice with GitHub.  We'll need an SSH key f
 
 If you don't want to go there, here's the gist (no GitHub-pun intended):
 
-1. In Terminal, run this ```bash ssh-keygen -t rsa -b 4096 -C "your_github_email@emaildomain.com" ```
+1. In Terminal, run this: 
+```bash
+ssh-keygen -t rsa -b 4096 -C "your_github_email@emaildomain.com"
+```
 1. It'll then do some stuff, and you can hit _enter_ when prompted for a location if the default location is fine
 1. Then you'll be prompted for a passcode and to confirm it, go for it
 So now you've got an SSH key, awesome.  So we need to add the key to ssh-agent
