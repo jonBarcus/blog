@@ -46,7 +46,7 @@ Run `hash -r` in Terminal and that will clear some cached executable paths and w
 
 ### What's Next? Ruby!
 
-Ruby is what I know right now, so that's my focus here.  Again, not being dogmatic here, but I prefer [**rbenv](https://github.com/rbenv/rbenv)instead of **RVM.  There's a nice and simple comparision [here](https://github.com/rbenv/rbenv/wiki/Why-rbenv%3F) if you want to take a look.  If not, we'll get to installing rbenv and Ruby.
+Ruby is what I know right now, so that's my focus here.  Again, not being dogmatic here, but I prefer [**rbenv**](https://github.com/rbenv/rbenv) instead of **RVM** .  There's a nice and simple comparision [here](https://github.com/rbenv/rbenv/wiki/Why-rbenv%3F) if you want to take a look.  If not, we'll get to installing rbenv and Ruby.
 
 Inside Terminal, let's run `brew install rbenv`
 
