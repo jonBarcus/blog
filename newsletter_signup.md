@@ -4,7 +4,7 @@ title: Newletter
 permalink: /newsletter/
 ---
 
-###Feel free to sign up for my newsletter.
+### Feel free to sign up for my newsletter.
 It'll include a few items for your reading pleasure that I find interesting.  I promise you won't get spammed by this!
 
 <div id="revue-embed">
