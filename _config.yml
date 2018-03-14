@@ -35,6 +35,6 @@ disqus:
 googe_analytics: UA-115765258-1
 
 #plugins Jekyll SEO Tag
-plugins:
-  - jekyll-seo-tag
-  - jekyll-feed
+# plugins:
+#   - jekyll-seo-tag
+#   - jekyll-feed
