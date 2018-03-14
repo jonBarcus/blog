@@ -32,7 +32,7 @@ disqus:
   shortname: jonBarcus
 
 #Google Analytics
-googe_analytics: UA-115765258-1
+google_analytics: UA-115765258-1
 
 #plugins Jekyll SEO Tag
 # plugins:
