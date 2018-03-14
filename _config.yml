@@ -29,3 +29,6 @@ theme: minima
 
 #disqus
 disqus: jonBarcus
+
+#Google Analytics
+googe_analytics: UA-115765258-1
