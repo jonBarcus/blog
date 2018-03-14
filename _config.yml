@@ -28,7 +28,8 @@ markdown: kramdown
 theme: minima
 
 #disqus
-disqus: jonBarcus
+disqus: 
+  shortname: jonBarcus
 
 #Google Analytics
 googe_analytics: UA-115765258-1
